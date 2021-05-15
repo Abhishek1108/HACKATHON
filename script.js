@@ -91,8 +91,8 @@ async function sendNotificationMail(link){
     secure:false,
     requireTLS:true,
     auth :{
-      user:'abhisheksinghtanwar1@gmail.com',
-      pass:'Erabhishek@1108',
+      user:'',
+      pass:'',
     }
     
   });
@@ -100,8 +100,8 @@ async function sendNotificationMail(link){
   let textTosend= link;
 
   await transpoter.sendMail({
-       from:'abhisheksinghtanwar1@gmail.com',
-       to:'abhisheksinghtanwar1@gmail.com',
+       from:'',
+       to:'',
        subject: "Price Dropped",
        text:textTosend,
       
